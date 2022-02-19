@@ -38,6 +38,8 @@ body {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+    width: 20%;
+    min-width: 60px;
   }
 
 .big-text {
@@ -46,10 +48,24 @@ body {
     color: #F9FAF8;
 }
 
+.small-text {
+    color: #F9FAF8;
+    max-width: fit-content;
+}
+
 .awesome {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.ultra {    
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 60px;
 }
 
 .imagespot {
@@ -62,12 +78,43 @@ body {
 }
 
 .info {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 
 .smallimg {
-    border-radius: 50%;
-    max-width: 50%;
-    max-height: 50%;
+    border-radius: 5%;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.big-text-black {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.quote {
+    background-color: aqua;
+    align-items: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    font-size: x-large;
+    
+}
+
+.inner {
+   text-align: left;
+}
+
+.outer {
+    text-align: right;
 }
